@@ -442,7 +442,7 @@ def build_refund_agent() -> Agent:
         Returns:
             The inventory_agent field from WorkflowState, or empty dict if not yet set
         """
-        state = _read_workflow_State(session_id)
+        state = _read_workflow_state(session_id)
         if not state:
             return {}
         return state.get('inventory_agent', {})
