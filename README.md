@@ -81,8 +81,6 @@ Shared State: DynamoDB WorkflowStateTable (with optimistic locking)
 
 ## Setup
 
-This is the unfinished student starter: complete the TODOs in `src/agent_orchestrator.py`. The CLI configuration and support modules are provided infrastructure, not exercise solutions. Runtime deployment and runtime configuration updates use AgentCore CLI; application service calls still use the AWS SDK.
-
 Use the tested CLI version **0.30.0** shown above. The supplied CDK compatibility fix keeps HTTP explicit in the deployed runtime metadata.
 
 ### 1. Install Dependencies
